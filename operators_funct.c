@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * operators_funct - selects the correct func to perform the operation
+ * *operators_funct - selects the correct func to perform the operation
  * sked by the user
- * @s: operator passed as arguement to program
+ * @oper: operator passed as arguement to program
  * Return: a pointer to the function
  */
 
