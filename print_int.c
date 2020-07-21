@@ -6,13 +6,12 @@
  * Return: cont
  */
 
-
-int print_integer(va_list i);
+int print_integer(va_list i)
 {
-	int len, pow, y,  digit, n, con = 0, num;
+	int len, pow, y, digit, n, num, con = 0;
 
 	n = va_arg(i, int);
-	if (n != 0)
+	if (n)
 	{
 		if (n < 0)
 		{
@@ -21,7 +20,7 @@ int print_integer(va_list i);
 		}
 		num = n;
 		len = 0;
-		while (num != 0)
+		while (num)
 		{
 			num /= 10;
 			len++;

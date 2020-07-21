@@ -3,13 +3,13 @@
 
 #include <stdarg.h>
 #include <unistd.h>
+#include <stdio.h>
 
-int _printf(const char *fmt, ...);
-int (*operators_funct(const char *oper))(va_list);
+int _printf(const char *format, ...);
+int (*operators_funct(const char oper))();
 int print_char(va_list c);
 int print_string(va_list s);
 int print_integer(va_list i);
-int _strcmp(char *s1, char *s2);
 int _putchar(char c);
 
 /**
@@ -19,10 +19,10 @@ int _putchar(char c);
 * @f: struct
 */
 
-typedef struct fmt
+typedef struct format
 {
 	char *oper;
-	int (*f)(va_list);
-} fmt_t;
+	int (*f)();
+} format_t;
 
 #endif /*MY_PRINTF_H*/

@@ -15,15 +15,3 @@ int print_char(va_list pc)
 	_putchar(p_char);
 	return (1);
 }
-
-/**
-* print_perc - print the percent
-*
-* Return: 1.
-*/
-
-int print_perc(void)
-{
-	_putchar('%');
-	return (1);
-}
