@@ -13,7 +13,7 @@ int print_integer(va_list i);
 int _putchar(char c);
 
 /**
-* struct fmt - format oper structur.
+* struct format - format oper structur.
 * _printf - my printf prototype.
 * @oper: operators
 * @f: struct
