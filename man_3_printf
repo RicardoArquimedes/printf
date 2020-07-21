@@ -1,0 +1,41 @@
+.TH man 2 "20 Jul 2020" "0.01" "_printf man page"
+.SH NAME
+
+_printf
+  
+This function _printf print data in the standard oytput
+
+.SH SYNOPSIS
+.B printf  FORMAT 
+.I [ARGUMENT]...
+
+.B printf OPTION 
+.SH DESCRIPTION
+
+Prints ARGUMENT(s) according to the FORMAT or execution option.
+
+
+.SH % FORMAT
+.RS
+.nf
+
+%c Format to print a single character 
+%s Format to print a string of character
+%d Format to print a decimal (base 10) number
+%i Format to print an integer a base 10 number
+
+.SH AUTHOR
+Written by Ricardo Arquímedes Castro & Ronald Aguirre.
+
+.SH REPORTING BUGS
+Under construction
+
+.SH CREDITS
+.PP 
+This man page is created for academic purpose, to make our own _printf project by Ricardo Arquímedes Castro and Ronald Aguirre,
+Holberton School Students.
+
+.SH SEE ALSO
+ Documentacion source to create this man page function on <https://www.gnu.org/software/coreutils/printf> 
+
+.PP
