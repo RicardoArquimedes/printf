@@ -80,10 +80,10 @@ vagrant @ vagrant-ubuntu-trusty-64:~$ gcc -Wall -Wextra -Werror -pedantic -Wno-f
  * /
 int main (void)
 {
-    char name = ronal;
-    char name2 = ricardo;
+    char name[] = "ronal";
+    char name2[] = "ricardo";
     
-    _printf ("members: [%c, %c] \n", name, name2);
+    _printf ("members: [%s, %s] \n", name, name2);
     
     return (0);
 }
