@@ -3,7 +3,7 @@
 
 _printf
   
-This function _printf print data in the standard oytput
+This function _printf print data in the standard output
 
 .SH SYNOPSIS
 .B printf  FORMAT 
@@ -36,6 +36,6 @@ This man page is created for academic purpose, to make our own _printf project b
 Holberton School Students.
 
 .SH SEE ALSO
- Documentacion source to create this man page function on <https://www.gnu.org/software/coreutils/printf> 
+ Documentation source to create this man page function on <https://www.gnu.org/software/coreutils/printf> 
 
 .PP
