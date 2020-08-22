@@ -1,0 +1,20 @@
+#ifndef MY_PRINTF_H
+#define MY_PRINTF_H
+
+#include <stdarg.h>
+#include <unistd.h>
+
+/*struct fmt - format oper structur.
+* @oper: operators
+* 
+*/
+
+int _printf(const char *fmt, ...); /*function to print a char string*/
+int (*get_operators_funct(const char *oper))(va_list);
+
+{
+    char *oper; ----- esto es una plantilla es como una tabla --- operaciones 
+    int (*f)(va_list);  y la función puntero
+} fmt_t;
+
+#endif /*PRINTF_H*/
