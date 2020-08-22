@@ -25,10 +25,10 @@ Prints ARGUMENT(s) according to the FORMAT or execution option.
 %i Format to print an integer a base 10 number
 
 .SH AUTHOR
-Written by Ricardo Arquímedes Castro & Ronald Aguirre.
+Written by Ricardo Arquímedes Castro & Ronald Antonio Aguirre Villalobos.
 
 .SH REPORTING BUGS
-Under construction
+Under construction.
 
 .SH CREDITS
 .PP 
