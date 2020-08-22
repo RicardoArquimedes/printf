@@ -10,7 +10,9 @@ int (*operators_funct(const char oper))();
 int print_char(va_list c);
 int print_string(va_list s);
 int print_integer(va_list i);
+int print_rot13(va_list R);
 int _putchar(char c);
+int print_bin(va_list b);
 
 /**
 * struct format - format oper structur.
