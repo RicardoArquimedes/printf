@@ -1,3 +1,28 @@
+
+<p align="center">
+     <p align="center">
+          <img src="https://www.holbertonschool.com/holberton-logo.png" width="360"/>
+     </p>
+     <p align="center">
+          <a href="https://github.com/ellerbrock/open-source-badges/">
+               <img alt="bash" src="https://badges.frapsoft.com/bash/v1/bash.png?v=103" target="_blank" />
+          </a>
+          <a href="https://github.com/RicardoArquimedes/printf/commits/master">
+               <img alt="commit_activity" src="https://img.shields.io/github/commit-activity/y/RicardoArquimedes/printf" target="_blank" />
+          </a>
+          <a href="https://github.com/RicardoArquimedes/printf/graphs/contributors">
+               <img alt="contributors" src="https://img.shields.io/github/contributors/RicardoArquimedes/printf" target="_blank" />
+          </a>
+          <a href="https://github.com/RicardoArquimedes/printf" target="_blank">
+               <img alt="code-size" src="https://img.shields.io/github/languages/code-size/RicardoArquimedes/printf" />
+          </a>
+          <a href="https://github.com/RicardoArquimedes/printf" target="_blank">
+               <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+          </a>
+     </p>
+</p>
+
+
 # _PRINTF
 ## Do you know the printf function?
 ## No?
