@@ -2,11 +2,12 @@
 
 /**
  * print_integer - function to print the integer to std.
+ int printf - function to print the interger.
  * @i: integer
  * Return: cont
  */
 
-int print_integer(va_list i)
+int printf(va_list i)
 {
 	int len, pow, y, digit, n, num, con = 0;
 
